@@ -18,7 +18,6 @@ public class PMSEntryDAOImpl implements PMSEntryDAO {
 		System.out.println("Jt from injection"+jt);
 		this.jt = jt;
 	}
-
 	public int save(PMS pms) {
 		int i=0;
 		int pmsId=0;
