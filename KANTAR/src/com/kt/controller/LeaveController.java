@@ -9,14 +9,14 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.kt.bean.LeaveBean;
-import com.kt.bean.QCField;
+
 @Controller
 @MultipartConfig
 public class LeaveController {
 	@RequestMapping(value="LeaveDetails",method=RequestMethod.GET)
 	public ModelAndView getLeaveDetails(ModelMap modelMap) throws Exception{
 		modelMap.addAttribute("LeaveFormBackingObject",new LeaveBean());
-		modelMap.addAllAttributes(referenceData());
-		return new ModelAndView("qcScheduler");
+//		modelMap.addAllAttributes(referenceData());
+		return new ModelAndView("LeaveDetails");
 	}//close getQCScheduler
 }
