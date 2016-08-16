@@ -22,4 +22,7 @@
 	<definition name="qcScheduler" extends="baseLayout">
 		<put-attribute name="body" value="/qcScheduler.jsp" />
 	</definition>
+	<definition name="leave" extends="baseLayout">
+		<put-attribute name="body" value="/LeaveDetails.jsp" />
+	</definition>
 </tiles-definitions>

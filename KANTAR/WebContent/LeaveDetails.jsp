@@ -4,11 +4,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
-
+<title>LeaveSystem</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="x-ua-compatible" content="IE=edge">
-
 <link href="./LeaveDetails_files/menu_style.css" rel="stylesheet"
 	type="text/css">
 <link href="./LeaveDetails_files/StyleSheet.css" rel="stylesheet"
@@ -26,7 +24,6 @@
 	   document.getElementById("liFA").style.display="none";
           document.getElementById("liExit").style.display="none";
           document.getElementById("liHRPolicies").style.display="none";
-
           document.getElementById("liAccessCard").style.display="none";
           document.getElementById("liCherish").style.display="none";
           document.getElementById("liESS").style.display="none";
@@ -61,15 +58,12 @@
 
 	  document.getElementById("liProhance").style.display="none";
 	  document.getElementById("liPGLinks").style.display="inline";
-	   
         }
-
         }
     </script>
 <title>LeaveDetails</title>
 <!-- saved from url=(0056)http://172.20.129.203/KANTAR/LeaveSystem/ApplyLeave.aspx -->
-<link href="./LeaveDetails_files/WebResource.axd" type="text/css"
-	rel="stylesheet">
+<link href="./LeaveDetails_files/WebResource.axd" type="text/css" rel="stylesheet">
 </head>
 <body onload="HideMenu()">
 	<form name="aspnetForm" method="post"
@@ -691,64 +685,62 @@ DEBASISH SAHU
 												</tr>
 												<tr>
 													<td style="width: 331px"><span
-														id="ctl00_ContentPlaceHolder1_Label2" class="LeaveText">From
+														id="fromDateTxt" class="LeaveText">From
 															Date</span></td>
 													<td style="width: 534px"><input
-														name="ctl00$ContentPlaceHolder1$FromDateTextbox"
+														name="fromDate"
 														type="text" readonly="readonly"
-														id="ctl00_ContentPlaceHolder1_FromDateTextbox" on=""
-														style="height: 23px;"></td>
+														id="fromDate" on=""	style="height: 23px;"></td>
 												</tr>
 												<tr>
 													<td style="width: 331px"><span
-														id="ctl00_ContentPlaceHolder1_Label3" class="LeaveText">To
+														id="toDateTxt" class="LeaveText">To
 															Date</span></td>
 													<td style="width: 534px"><input
-														name="ctl00$ContentPlaceHolder1$TodateTextbox" type="text"
+														name="toDate" type="text"
 														readonly="readonly"
-														id="ctl00_ContentPlaceHolder1_TodateTextbox"
+														id="toDate"
 														style="height: 23px;"></td>
 
 												</tr>
 												<tr>
 													<td style="width: 331px"><span
-														id="ctl00_ContentPlaceHolder1_Label4" class="LeaveText">Purpose</span>
+														id="purposeTxt" class="LeaveText">Purpose</span>
 													</td>
 													<td style="width: 534px"><textarea
-															name="ctl00$ContentPlaceHolder1$PurposeTextBox" rows="2"
-															cols="20" id="ctl00_ContentPlaceHolder1_PurposeTextBox"
+															name="purpose" rows="2"
+															cols="20" id="purpose"
 															style="height: 59px; width: 291px;"></textarea></td>
 												</tr>
 												<tr>
 													<td style="width: 331px"><span
-														id="ctl00_ContentPlaceHolder1_Label61" class="LeaveText">Contact
-															Number</span></td>
+														id="contactNumberTxt" class="LeaveText">Contact Number</span></td>
 													<td style="width: 534px"><input
-														name="ctl00$ContentPlaceHolder1$ContactNoTextBox"
+														name="contactNumber"
 														type="text" maxlength="10"
-														id="ctl00_ContentPlaceHolder1_ContactNoTextBox"
+														id="contactNumber"
 														style="height: 23px; width: 291px;"></td>
 												</tr>
 												<tr>
 													<td style="width: 331px"><span
-														id="ctl00_ContentPlaceHolder1_Label76" class="LeaveText">Over
+														id="overQuotaCheckTxt" class="LeaveText">Over
 															Quota Leaves</span></td>
 													<td style="width: 534px"><input
-														id="ctl00_ContentPlaceHolder1_EmergencyCheckBox"
+														id="overQuotaCheck"
 														type="checkbox"
-														name="ctl00$ContentPlaceHolder1$EmergencyCheckBox">
+														name="overQuotaCheck">
 													</td>
 												</tr>
 												<tr>
 													<td style="width: 331px"><input type="submit"
-														name="ctl00$ContentPlaceHolder1$ResponseBtn" value=""
-														id="ctl00_ContentPlaceHolder1_ResponseBtn" tabindex="1000"
+														name="apply" value=""
+														id="apply" tabindex="1000"
 														style="color: Transparent; background-color: Transparent; border-color: Transparent; border-style: None; height: 16px; width: 16px;">
 													</td>
 													<td style="width: 534px"><input type="submit"
-														name="ctl00$ContentPlaceHolder1$SbtButton"
+														name="applyLeave"
 														value="Apply Leave" onclick="Getvalues();"
-														id="ctl00_ContentPlaceHolder1_SbtButton"></td>
+														id="applyLeave"></td>
 												</tr>
 											</tbody>
 										</table>
@@ -904,85 +896,37 @@ DEBASISH SAHU
 								</tbody>
 							</table>
 						</div>
-
 					</div>
-
 				</div>
 			</div>
-
 			<input type="hidden"
 				name="ctl00$ContentPlaceHolder1$CollapsiblePanelExtender3_ClientState"
 				id="ctl00_ContentPlaceHolder1_CollapsiblePanelExtender3_ClientState"
 				value="true"> <input type="hidden"
 				name="ctl00$ContentPlaceHolder1$CollapsiblePanelExtender4_ClientState"
 				id="ctl00_ContentPlaceHolder1_CollapsiblePanelExtender4_ClientState">
-
-
-
-
 			<input type="hidden"
 				name="ctl00$ContentPlaceHolder1$CollapsiblePanelExtender7_ClientState"
 				id="ctl00_ContentPlaceHolder1_CollapsiblePanelExtender7_ClientState">
-
-
-
-
-
-
-
-
-
-
-
-
 			<input type="hidden"
 				name="ctl00$ContentPlaceHolder1$CollapsiblePanelExtender6_ClientState"
 				id="ctl00_ContentPlaceHolder1_CollapsiblePanelExtender6_ClientState">
-
-
 			<script language="JavaScript" type="text/javascript">
             document.getElementById('ctl00_ContentPlaceHolder1_LeaveRadioButtonList_0').checked = true;
         </script>
-
-
-
 			<div>
 				<table
 					style="border-width: 1px; margin: 0px; border-color: #FFFF00; width: 100%;"
 					border="1px">
 					<tbody>
 						<tr>
-
-
-
 						</tr>
 					</tbody>
 				</table>
 			</div>
 		</div>
-		<script type="text/javascript">
-//<![CDATA[
-Sys.Application.initialize();
-Sys.Application.add_init(function() {
-    $create(AjaxControlToolkit.CalendarBehavior, {"id":"ctl00_ContentPlaceHolder1_CalendarExtender1"}, null, null, $get("ctl00_ContentPlaceHolder1_FromDateTextbox"));
-});
-Sys.Application.add_init(function() {
-    $create(AjaxControlToolkit.CalendarBehavior, {"id":"ctl00_ContentPlaceHolder1_CalendarExtender2"}, null, null, $get("ctl00_ContentPlaceHolder1_TodateTextbox"));
-});
-Sys.Application.add_init(function() {
-    $create(AjaxControlToolkit.FilteredTextBoxBehavior, {"ValidChars":"0123456789","id":"ctl00_ContentPlaceHolder1_FilteredTextBoxExtender1"}, null, null, $get("ctl00_ContentPlaceHolder1_ContactNoTextBox"));
-});
-Sys.Application.add_init(function() {
-    $create(AjaxControlToolkit.CollapsiblePanelBehavior, {"ClientStateFieldID":"ctl00_ContentPlaceHolder1_CollapsiblePanelExtender1_ClientState","CollapseControlID":"ctl00_ContentPlaceHolder1_ApplyLeaveHeaderPanel","CollapsedImage":"../Images/down.gif","ExpandControlID":"ctl00_ContentPlaceHolder1_ApplyLeaveHeaderPanel","ExpandedImage":"../Images/up.gif","ImageControlID":"ctl00_ContentPlaceHolder1_Image1","id":"ctl00_ContentPlaceHolder1_CollapsiblePanelExtender1"}, null, null, $get("ctl00_ContentPlaceHolder1_ApplyLeaveContent"));
-});
-Sys.Application.add_init(function() {
-    $create(AjaxControlToolkit.CollapsiblePanelBehavior, {"ClientStateFieldID":"ctl00_ContentPlaceHolder1_CollapsiblePanelExtender2_ClientState","CollapseControlID":"ctl00_ContentPlaceHolder1_ApproveLeave","Collapsed":true,"CollapsedImage":"../Images/down.gif","ExpandControlID":"ctl00_ContentPlaceHolder1_ApproveLeave","ExpandedImage":"../Images/up.gif","ImageControlID":"ctl00_ContentPlaceHolder1_Image2","id":"ctl00_ContentPlaceHolder1_CollapsiblePanelExtender2"}, null, null, $get("ctl00_ContentPlaceHolder1_ApprovedLeavePanel"));
-});
-Sys.Application.add_init(function() {
-    $create(AjaxControlToolkit.CollapsiblePanelBehavior, {"ClientStateFieldID":"ctl00_ContentPlaceHolder1_CollapsiblePanelExtender3_ClientState","CollapseControlID":"ctl00_ContentPlaceHolder1_Panel1","Collapsed":true,"CollapsedImage":"../Images/down.gif","ExpandControlID":"ctl00_ContentPlaceHolder1_Panel1","ExpandedImage":"../Images/up.gif","ImageControlID":"ctl00_ContentPlaceHolder1_Image3","id":"ctl00_ContentPlaceHolder1_CollapsiblePanelExtender3"}, null, null, $get("ctl00_ContentPlaceHolder1_Panel2"));
-});
-//]]>
-</script>
+
+
 	</form>
 </body>
 </html>
