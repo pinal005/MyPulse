@@ -7,13 +7,13 @@
 <title>LeaveSystem</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="x-ua-compatible" content="IE=edge">
-<link href="./LeaveDetails_files/menu_style.css" rel="stylesheet"
+<link href="./Pulse_files/menu_style.css" rel="stylesheet"
 	type="text/css">
-<link href="./LeaveDetails_files/StyleSheet.css" rel="stylesheet"
+<link href="./Pulse_files/StyleSheet.css" rel="stylesheet"
 	type="text/css">
-<link href="./LeaveDetails_files/main.css" rel="stylesheet"
+<link href="./Pulse_files/main.css" rel="stylesheet"
 	type="text/css">
-<link href="./LeaveDetails_files/Style.css" rel="stylesheet"
+<link href="./Pulse_files/Style.css" rel="stylesheet"
 	type="text/css">
 <script language="javascript" type="text/javascript">
 	function HideMenu(){
@@ -63,7 +63,8 @@
     </script>
 <title>LeaveDetails</title>
 <!-- saved from url=(0056)http://172.20.129.203/KANTAR/LeaveSystem/ApplyLeave.aspx -->
-<link href="./LeaveDetails_files/WebResource.axd" type="text/css" rel="stylesheet">
+<link href="./Pulse_files/WebResource.axd" type="text/css"
+	rel="stylesheet">
 </head>
 <body onload="HideMenu()">
 	<form name="aspnetForm" method="post"
@@ -96,18 +97,18 @@ function __doPostBack(eventTarget, eventArgument) {
 }
 //]]>
 </script>
-		<script src="./LeaveDetails_files/WebResource(1).axd"
+		<script src="./Pulse_files/WebResource(1).axd"
 			type="text/javascript"></script>
-		<script src="./LeaveDetails_files/ScriptResource.axd"
+		<script src="./Pulse_files/ScriptResource.axd"
 			type="text/javascript"></script>
 		<script type="text/javascript">
 //<![CDATA[
 if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
 //]]>
 </script>
-		<script src="./LeaveDetails_files/ScriptResource(1).axd"
+		<script src="./Pulse_files/ScriptResource(1).axd"
 			type="text/javascript"></script>
-		<script src="./LeaveDetails_files/ApplyLeave.aspx"
+		<script src="./Pulse_files/ApplyLeave.aspx"
 			type="text/javascript"></script>
 		<div>
 			<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION"
@@ -287,7 +288,7 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['tctl00$ContentPl
 							<td style="width: 11px"></td>
 							<td style="width: 54px"><img
 								id="ctl00_ContentPlaceHolder1_Image1"
-								src="./LeaveDetails_files/up.gif" style="border-width: 0px;">
+								src="./Pulse_files/up.gif" style="border-width: 0px;">
 							</td>
 							<td><span id="ctl00_ContentPlaceHolder1_Label6"
 								class="LeaveHeading">Apply Leave</span></td>
@@ -684,63 +685,48 @@ DEBASISH SAHU
 													</td>
 												</tr>
 												<tr>
-													<td style="width: 331px"><span
-														id="fromDateTxt" class="LeaveText">From
-															Date</span></td>
-													<td style="width: 534px"><input
-														name="fromDate"
-														type="text" readonly="readonly"
-														id="fromDate" on=""	style="height: 23px;"></td>
+													<td style="width: 331px"><span id="fromDateTxt"
+														class="LeaveText">From Date</span></td>
+													<td style="width: 534px"><input name="fromDate"
+														type="text" readonly="readonly" id="fromDate" on=""
+														style="height: 23px;"></td>
 												</tr>
 												<tr>
-													<td style="width: 331px"><span
-														id="toDateTxt" class="LeaveText">To
-															Date</span></td>
-													<td style="width: 534px"><input
-														name="toDate" type="text"
-														readonly="readonly"
-														id="toDate"
+													<td style="width: 331px"><span id="toDateTxt"
+														class="LeaveText">To Date</span></td>
+													<td style="width: 534px"><input name="toDate"
+														type="text" readonly="readonly" id="toDate"
 														style="height: 23px;"></td>
 
 												</tr>
 												<tr>
-													<td style="width: 331px"><span
-														id="purposeTxt" class="LeaveText">Purpose</span>
-													</td>
-													<td style="width: 534px"><textarea
-															name="purpose" rows="2"
-															cols="20" id="purpose"
+													<td style="width: 331px"><span id="purposeTxt"
+														class="LeaveText">Purpose</span></td>
+													<td style="width: 534px"><textarea name="purpose"
+															rows="2" cols="20" id="purpose"
 															style="height: 59px; width: 291px;"></textarea></td>
 												</tr>
 												<tr>
-													<td style="width: 331px"><span
-														id="contactNumberTxt" class="LeaveText">Contact Number</span></td>
-													<td style="width: 534px"><input
-														name="contactNumber"
-														type="text" maxlength="10"
-														id="contactNumber"
+													<td style="width: 331px"><span id="contactNumberTxt"
+														class="LeaveText">Contact Number</span></td>
+													<td style="width: 534px"><input name="contactNumber"
+														type="text" maxlength="10" id="contactNumber"
 														style="height: 23px; width: 291px;"></td>
 												</tr>
 												<tr>
-													<td style="width: 331px"><span
-														id="overQuotaCheckTxt" class="LeaveText">Over
-															Quota Leaves</span></td>
-													<td style="width: 534px"><input
-														id="overQuotaCheck"
-														type="checkbox"
-														name="overQuotaCheck">
-													</td>
+													<td style="width: 331px"><span id="overQuotaCheckTxt"
+														class="LeaveText">Over Quota Leaves</span></td>
+													<td style="width: 534px"><input id="overQuotaCheck"
+														type="checkbox" name="overQuotaCheck"></td>
 												</tr>
 												<tr>
 													<td style="width: 331px"><input type="submit"
-														name="apply" value=""
-														id="apply" tabindex="1000"
+														name="apply" value="" id="apply" tabindex="1000"
 														style="color: Transparent; background-color: Transparent; border-color: Transparent; border-style: None; height: 16px; width: 16px;">
 													</td>
 													<td style="width: 534px"><input type="submit"
-														name="applyLeave"
-														value="Apply Leave" onclick="Getvalues();"
-														id="applyLeave"></td>
+														name="applyLeave" value="Apply Leave"
+														onclick="Getvalues();" id="applyLeave"></td>
 												</tr>
 											</tbody>
 										</table>
@@ -773,7 +759,7 @@ DEBASISH SAHU
 							<td style="width: 11px"></td>
 							<td style="width: 54px"><img
 								id="ctl00_ContentPlaceHolder1_Image2"
-								src="./LeaveDetails_files/down.gif" style="border-width: 0px;">
+								src="./Pulse_files/down.gif" style="border-width: 0px;">
 							</td>
 							<td><span id="ctl00_ContentPlaceHolder1_Label1"
 								class="LeaveHeading">My ApprovedLeaves</span></td>
@@ -869,7 +855,7 @@ DEBASISH SAHU
 							<td style="width: 11px"></td>
 							<td style="width: 54px"><img
 								id="ctl00_ContentPlaceHolder1_Image3"
-								src="./LeaveDetails_files/down.gif" style="border-width: 0px;">
+								src="./Pulse_files/down.gif" style="border-width: 0px;">
 							</td>
 							<td><span id="ctl00_ContentPlaceHolder1_Label7"
 								class="LeaveHeading">My UnapprovedLeaves</span></td>

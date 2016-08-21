@@ -1,0 +1,27 @@
+﻿.header
+{
+	 height:auto;
+	width: auto;
+	background-color:Black ;
+}
+.header1
+{
+	font-size: 12px;
+	font-family: verdana;
+}
+.header2
+{
+	font-size: 10px;
+	font-family: verdana;
+}
+.footer
+{
+	font-size: 10px;
+	font-family: verdana;
+		width: auto;
+}
+.hand
+{
+	cursor: pointer;
+}
+
