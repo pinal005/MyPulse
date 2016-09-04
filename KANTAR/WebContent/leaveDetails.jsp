@@ -28,7 +28,7 @@
 </head>
 <body onload="HideMenu()">
 	<form:form method="post" action="leave.form"
-		commandName="leavFormBackingObject" enctype="multipart/form-data"
+		commandName="leaveFormBackingObject" enctype="multipart/form-data"
 		style="width: 100%;">
 		<div id="ctl00_ContentPlaceHolder1_ApplyLeaveHeaderPanel"
 			class="MainLeave"
@@ -40,7 +40,7 @@
 						<td style="width: 11px"></td>
 						<td style="width: 54px"><img
 							id="ctl00_ContentPlaceHolder1_Image1"
-							src="./LeaveDetails_files/up.gif" style="border-width: 0px;">
+							src="./Pulse_files/up.gif" style="border-width: 0px;">
 						</td>
 						<td><span id="ctl00_ContentPlaceHolder1_Label6"
 							class="LeaveHeading">Apply Leave</span></td>
@@ -408,21 +408,23 @@ GANESH CHARY KANNAGI
 												<td style="width: 331px"><span
 													id="ctl00_ContentPlaceHolder1_Label2" class="LeaveText">From
 														Date</span></td>
-												<td style="width: 534px"><input
-													name="ctl00$ContentPlaceHolder1$FromDateTextbox"
+												<td style="width: 534px"><form:input path="fromDate"
+												class="datepicker"
+													name="FromDateTextbox"
 													type="text" readonly="readonly"
-													id="ctl00_ContentPlaceHolder1_FromDateTextbox"
-													style="height: 23px;"></td>
+													id="FromDateTextbox"
+													style="height: 23px;"/></td>
 											</tr>
 											<tr>
 												<td style="width: 331px"><span
 													id="ctl00_ContentPlaceHolder1_Label3" class="LeaveText">To
 														Date</span></td>
-												<td style="width: 534px"><input
-													name="ctl00$ContentPlaceHolder1$TodateTextbox" type="text"
+												<td style="width: 534px"><form:input
+													name="TodateTextbox" path="toDate" type="text"
 													readonly="readonly"
-													id="ctl00_ContentPlaceHolder1_TodateTextbox"
-													style="height: 23px;"></td>
+													id="TodateTextbox"
+													class="datepicker"
+													style="height: 23px;"/></td>
 
 											</tr>
 											<!--  <tr>
@@ -437,18 +439,18 @@ GANESH CHARY KANNAGI
 												<td style="width: 331px"><span
 													id="ctl00_ContentPlaceHolder1_Label61" class="LeaveText">Contact
 														Number</span></td>
-												<td style="width: 534px"><input
-													name="ctl00$ContentPlaceHolder1$ContactNoTextBox"
-													type="text" maxlength="10"
+												<td style="width: 534px"><form:input
+													name="ContactNoTextBox"
+													type="text" path="ContactNumber" maxlength="10"
 													id="ctl00_ContentPlaceHolder1_ContactNoTextBox"
-													style="height: 23px; width: 291px;"></td>
+													style="height: 23px; width: 291px;"/></td>
 											</tr>
-											<tr>
+											<!-- <tr>
 												<td style="width: 331px"><span
 													id="ctl00_ContentPlaceHolder1_Label76" class="LeaveText">Over
 														Quota Leaves</span></td>
 												<td style="width: 534px"></td>
-											</tr>
+											</tr> -->
 											<tr>
 												<td style="width: 331px"><input type="submit"
 													name="ctl00$ContentPlaceHolder1$ResponseBtn" value=""
@@ -456,9 +458,9 @@ GANESH CHARY KANNAGI
 													style="color: Transparent; background-color: Transparent; border-color: Transparent; border-style: None; height: 16px; width: 16px;">
 												</td>
 												<td style="width: 534px"><input type="submit"
-													name="ctl00$ContentPlaceHolder1$SbtButton"
+													name="Apply"
 													value="Apply Leave" onclick="Getvalues();"
-													id="ctl00_ContentPlaceHolder1_SbtButton"></td>
+													id="Apply"></td>
 											</tr>
 										</tbody>
 									</table>
@@ -491,7 +493,7 @@ GANESH CHARY KANNAGI
 						<td style="width: 11px"></td>
 						<td style="width: 54px"><img
 							id="ctl00_ContentPlaceHolder1_Image2"
-							src="./LeaveDetails_files/up.gif" style="border-width: 0px;">
+							src="./Pulse_files/up.gif" style="border-width: 0px;">
 						</td>
 						<td><span id="ctl00_ContentPlaceHolder1_Label1"
 							class="LeaveHeading">My ApprovedLeaves</span></td>
@@ -591,7 +593,7 @@ GANESH CHARY KANNAGI
 						<td style="width: 11px"></td>
 						<td style="width: 54px"><img
 							id="ctl00_ContentPlaceHolder1_Image3"
-							src="./LeaveDetails_files/up.gif" style="border-width: 0px;">
+							src="./Pulse_files/up.gif" style="border-width: 0px;">
 						</td>
 						<td><span id="ctl00_ContentPlaceHolder1_Label7"
 							class="LeaveHeading">My UnapprovedLeaves</span></td>
