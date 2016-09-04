@@ -103,7 +103,7 @@
 					links</a>
 				<ul>
 					<li><a
-						href="LeaveDetails.form">Leave System</a></li>
+						href="leaveDetails.form">Leave System</a></li>
 					<li id="liAskAnExpert"><a
 						href="http://192.168.0.112/KANTAR/ScoreCard/ScoreCard.form"
 						target="_blank">Scorecard</a></li>

@@ -8,10 +8,8 @@ public class LeaveBean {
 	private String LeaveType;
 	private Date fromDate;
 	private Date toDate;
-	private String purpose;
 	private BigDecimal ContactNumber;
-	private boolean OverQuotaLeaves;
-
+	
 	public String getLeaveType() {
 		return LeaveType;
 	}
@@ -30,24 +28,11 @@ public class LeaveBean {
 	public void setToDate(Date toDate) {
 		this.toDate = toDate;
 	}
-	public String getPurpose() {
-		return purpose;
-	}
-	public void setPurpose(String purpose) {
-		this.purpose = purpose;
-	}
 	public BigDecimal getContactNumber() {
 		return ContactNumber;
 	}
 	public void setContactNumber(BigDecimal contactNumber) {
 		ContactNumber = contactNumber;
 	}
-	public boolean isOverQuotaLeaves() {
-		return OverQuotaLeaves;
-	}
-	public void setOverQuotaLeaves(boolean overQuotaLeaves) {
-		OverQuotaLeaves = overQuotaLeaves;
-	}
-	
 	
 }
