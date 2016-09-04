@@ -13,10 +13,10 @@ import com.kt.bean.LeaveBean;
 @Controller
 @MultipartConfig
 public class LeaveController {
-	@RequestMapping(value="LeaveDetails",method=RequestMethod.GET)
+	@RequestMapping(value="leaveDetails",method=RequestMethod.GET)
 	public ModelAndView getLeaveDetails(ModelMap modelMap) throws Exception{
-		modelMap.addAttribute("LeaveFormBackingObject",new LeaveBean());
+		modelMap.addAttribute("leaveFormBackingObject",new LeaveBean());
 //		modelMap.addAllAttributes(referenceData());
-		return new ModelAndView("leave");
+		return new ModelAndView("leaveDetails");
 	}//close getQCScheduler
 }
