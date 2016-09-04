@@ -17,6 +17,6 @@ public class LeaveController {
 	public ModelAndView getLeaveDetails(ModelMap modelMap) throws Exception{
 		modelMap.addAttribute("leaveFormBackingObject",new LeaveBean());
 //		modelMap.addAllAttributes(referenceData());
-		return new ModelAndView("leaveDetails");
+		return new ModelAndView("leaveDetails");  
 	}//close getQCScheduler
 }
