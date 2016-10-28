@@ -5,7 +5,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 public class QCField {
 
-	public int pmsId;
+	public int pmsId; 
 	private String priority;
 	private Date expectedDate;
 	private String expectedTime;
@@ -14,6 +14,7 @@ public class QCField {
 	private String notificationEmail;
 	private MultipartFile attachment;
 	private String comments;
+	
 	public int getPmsId(){
 		return this.pmsId;
 	}
