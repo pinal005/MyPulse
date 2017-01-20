@@ -69,6 +69,7 @@ public class QCController {
 		MultipartFile fileOrg=qcField.getAttachment();
 		String fileName="";
 		if(fileOrg!=null){
+			
 			fileName=fileOrg.getOriginalFilename();
 		}
 		System.out.println("fileName"+fileName);
