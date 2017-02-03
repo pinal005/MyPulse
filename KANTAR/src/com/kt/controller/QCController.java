@@ -35,6 +35,7 @@ public class QCController {
 		CustomDateEditor editor=new CustomDateEditor(new SimpleDateFormat("MM/dd/yyyy"), true);
 		binder.registerCustomEditor(Date.class, editor);
 	}//initBinder closed
+	
 	@RequestMapping(value="qcScheduler",method=RequestMethod.GET)
 	public ModelAndView getQCScheduler(ModelMap modelMap) throws Exception{
 		modelMap.addAttribute("QcFormBackingObject",new QCField());

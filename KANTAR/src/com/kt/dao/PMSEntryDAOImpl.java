@@ -1,7 +1,5 @@
 package com.kt.dao;
 
-
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -15,7 +13,7 @@ public class PMSEntryDAOImpl implements PMSEntryDAO {
 	@Qualifier("jt")
 	public void setJt(JdbcTemplate jt) {
 		System.out.println("Setting JT temp");
-		System.out.println("Jt from injection"+jt);
+		System.out.println("Jt from injection :"+jt);
 		this.jt = jt;
 	}
 	public int save(PMS pms) {
